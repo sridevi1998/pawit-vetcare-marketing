@@ -13,6 +13,8 @@ import {
   Users,
 } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 const portalLinks = [
   { label: "Clinic portal", href: process.env.NEXT_PUBLIC_HOSPITAL_APP_URL ?? "#clinic" },
   { label: "Pet parent app", href: process.env.NEXT_PUBLIC_PET_PARENT_APP_URL ?? "#parents" },
